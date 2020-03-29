@@ -10,6 +10,29 @@
       <li>Phone no : +91 0987783433</li>
       <li>LinkedIn:<a href="https://www.linkedin.com/in/rashmirajanna/">Profile</a> </li>
       <li>Address: Frankfurt,Germany</li>
+      <li>Email :rashmirajanna@gmail.com</li>
     </ul>
+    <hr>
+    <!-- To create a form , we use form tag
+    1. first we use label to say the statement
+    2. Actions can be done by using "input -" type- text,submit,file,date,radio,checkbox
+    range and many others. use mdn document for more definitions-->
+    <!-- Form mailto will- required mail method- what actions should be done
+      enctype is text plain - which takes all data in simple text
+    2. textarea - is helpful when we need to describe the msg -->
+    <form  action="mailto:rashmirajec@gmail.com" method="post"enctype="text/plain">
+      <label for="">Your Name</label>
+      <input type="text" name="Your Name" value=""><br><br>
+      <label for="">Your Email</label>
+      <input type="email" name="Your email" value=""> <br><br>
+      <label for="">Your Message</label>
+      <textarea name="Your Message" rows="10" cols="20"></textarea><br>
+      <label for="">Have you read our Terms and Conditions</label> <br>
+      <label for=""> If yes, Click checkbox</label>
+      <input type="checkbox" name="" value="">
+      <input type="submit" name="">
+      <!-- <label for=""> "Did you like my page?"</label> -->
+      <!-- <input type="radio" name="" value="">  -->
+    </form>
   </body>
 </html>
