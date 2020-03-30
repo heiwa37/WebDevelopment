@@ -1,0 +1,28 @@
+/**************Tag selectors**************************/
+h1
+{
+  color: red;
+  font-size:32px;
+}
+
+img:hover{
+  background-color:black;
+}
+
+/*************************class selectors****************/
+/* class selectors provide more individual/flexibility to add designs */
+.bacon{
+  background-color: Yellow;
+}
+.circular{
+  border-radius: 75%
+}
+.pizza{
+  background-color: green;
+}
+
+/*************************ID selectors****************/
+/* ID selectors overrides TAG selectors */
+#heading{
+  color: blue;
+}
