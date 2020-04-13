@@ -10,22 +10,31 @@ body{
   /* It center everything in the center in the website */
   /* font-family: "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;
    */
-   font-family: 'Vollkorn', serif;
-
+  font-family: 'Vollkorn', serif;
+  font-size:200%;
 }
 h1{
-  margin: 0 auto 0 auto;
+  line-height:2;
+  color: #66BFBF;
+  margin: 70px auto 0 auto;
   /* top: right: bottom : left setting to make the text auto center */
   font-family: 'Dancing Script', cursive;
+  font-size: 5.625rem;
+  /* 16px=100% =1 em use rem- font size always -- most adoptable and reliable wrt body  */
 }
 
-h2
-{
+
+h2{
+  color: #66BFBF;
+  font-weight: normal;
+  font-size:2.5rem;
+  /* Dynamic font size */
   font-family: 'Cormorant Garamond', serif;
 
 }
 h3
 {
+  color: #66BFBF;
   font-family: 'Cormorant Garamond', serif;
 }
 .top_container
@@ -52,6 +61,11 @@ h3
   position: absolute;
   right:40px;
   top: 20px;
+}
+.middle-cloud{
+  width:25%;
+  float: left;
+  margin-right: 30px;
 }
 /* .abs{
   position: absolute;
